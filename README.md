@@ -13,14 +13,11 @@
 
 - **Windows x64**
 - **Visual Studio 2022**（或带 v143/v145 工具链的 VS）
-- 本地需自备（**请勿提交到仓库**）：
-  - `driver.h` — 驱动接口头文件
-  - `key.txt` — 驱动授权/密钥
-  - `MD.lib` — 驱动静态库
+- 该项目已经删除了驱动相关内容，请准备一个可以读写游戏进程的驱动
 
 ## 编译
 
-1. 将 `driver.h`、`key.txt`、`MD.lib` 放入项目根目录（与 `DUMPER.cpp` 同级）。
+1. 将 驱动文件 放入项目根目录（与 `DUMPER.cpp` 同级）。
 2. 用 Visual Studio 打开 `dumper.sln`，选择 **Release | x64**，生成解决方案。
 3. 输出在 `x64\Release\dumper.exe`。
 
