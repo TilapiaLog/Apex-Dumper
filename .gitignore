@@ -1,0 +1,41 @@
+# 驱动相关（勿提交，防止泄露）
+driver.h
+key.txt
+MD.lib
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 编译输出（保留 pe_unmapper.exe 可提交）
+x64/
+[Dd]ebug/
+[Rr]elease/
+Win32/
+*.exe
+!pe_unmapper.exe
+
+# 中间文件与日志
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.meta
+*.log
+*.tlog
+*.idb
+*.ipdb
+*.iobj
+*.lastbuildstate
+*.recipe
+*.FileListAbsolute.txt
+*.Build.CppClean.log
+[Bb]in/
+[Oo]bj/
+
+# 本地生成的数据（可选）
+out.bin
